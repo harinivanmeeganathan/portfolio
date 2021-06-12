@@ -1,0 +1,24 @@
+#overlay{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.overlay-container{
+    background-color: rgb(1,1,1) ;
+    transform: translate3d(0px,0px,0px);
+    height : 558px;
+    visibility: visible; 
+    margin-top: 70px;
+}
+
+.overlay-content{
+    position:  fixed;
+    width: 99%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display:block;
+    z-index: 998;
+    overflow: hidden;
+ 
+}
