@@ -3,10 +3,10 @@ import './overlay.styles.scss';
 
 import MenuContent from '../../pages/menu/menu.component';
 
-const Overlay = () => {
+const Overlay = ({closeOverlay}) => {
     return(
         <div id = 'overlay' className = 'overlay-container overlay-content'>
-          <MenuContent/>             
+          <MenuContent  closeOverlay = {closeOverlay}/>             
         </div>
         )
   

@@ -22,7 +22,7 @@ const Header = () =>{
                
         </div>
             { 
-                changeIcon ? <Overlay/> : null
+                changeIcon ? <Overlay closeOverlay = {oniconClick} /> : null
             }
     </div>
 )}

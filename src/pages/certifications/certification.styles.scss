@@ -1,0 +1,104 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.certify-container{
+    //margin-top: 0px;
+    //height : 900px;
+    //display: block;
+    background-color:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    content: '';
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 80px;
+    //border: 2px solid;
+    //border-color: white;
+
+}
+
+.card-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.card-container .card{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid ;    
+    border-left: 1px solid;
+    border-top-color: #E100FF;
+    border-left-color: #7F00FF;
+    backdrop-filter: blur(5px);
+    
+}
+
+.card-container .card .content {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.card-container .card:hover .content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+.card-container .card .content h2 {
+    position: absolute;
+    top : -80px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255,255,255,0.05);
+    pointer-events: none;
+}
+
+.card-container .card .content h3 {
+    font-size: 1.2em;
+    color: #fff;
+    z-index: 1;
+}
+
+.card-container .card .content p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.card-container .card .content button {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    border-top: 2px solid ;    
+    border-left: 2px solid;
+    border-top-color: #CF8BF3;
+    border-left-color: #CF8BF3;
+    //border-bottom-color: #E100FF;
+    //border-right-color: #E100FF;
+}
