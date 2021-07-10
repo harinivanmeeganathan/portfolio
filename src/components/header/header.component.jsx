@@ -12,7 +12,7 @@ const Header = () =>{
     console.log('icon',changeIcon)
     return (
 
-    <div className = "header">
+    <div className = 'header'>
         <Link className = 'logo-container' to = '/'>
             <Logo className='logo' />
         </Link>

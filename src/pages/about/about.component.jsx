@@ -5,14 +5,24 @@ import {FaNode} from 'react-icons/fa';
 import {FaSass} from 'react-icons/fa';
 import {DiJavascript1} from 'react-icons/di';
 import {SiCplusplus} from 'react-icons/si';
-import {GrMysql} from 'react-icons/gr';
+import {GrMysql} from 'react-icons/gr';         
 import {GiStarsStack} from 'react-icons/gi';
+
+import Fade from 'react-reveal/Fade';
 import './about.styles.scss';
+
 
 const About = () => {
     return(
-    <div className = 'about-container'>
-        <div className = 'left-container'>
+
+<div className = 'about-container'>
+   <h1 className = 'aboutme'>About Me!</h1> 
+        <Fade left>      
+          <div className = 'left-container'>
+            <span className='lines'></span>
+            <span className='lines'></span>
+            <span className='lines'></span>
+            <span className='lines'></span>
             <ul className = 'ul'>
                 <li className = 'li'>BORN PLACE</li>
                 <li className = 'val'>VELLORE, TAMIL NADU</li>
@@ -23,8 +33,16 @@ const About = () => {
                 <li className = 'li'>MAIL ME</li>
                 <li className = 'val'>harinivanmeeganathan@gmail.com</li>
             </ul>
+            
         </div>    
+        </Fade>
+
+        <Fade right delay = {1000}>  
         <div className = 'right-conatiner'>
+            <span className='lines'></span>
+            <span className='lines'></span>
+            <span className='lines'></span>
+            <span className='lines'></span>
             <div className = 'intro'>
                 <h2 className = 'name'>
                     Hi, I'm Harini Vanmeeganathan
@@ -36,24 +54,35 @@ const About = () => {
 
                 </div>
             </div> 
+         
         </div>
+     </Fade>
+
+     <Fade bottom delay = {1000}>  
         <div className = 'bottom-container'>
+            <span className='lines'></span>
+            <span className='lines'></span>
+            <span className='lines'></span>
+            <span className='lines'></span>
         <div className = 'skill-header'>
             <h1 className = 'skills'>
                 <GiStarsStack className ='stars'/> SKILLS</h1>
         </div>
-        <div className = 'grid-bottom'>
-           <h2 className = 'icon'><FaReact className = 'ic'/> REACTJS</h2>
-           <h2 className = 'icon'><FaNode className = 'ic'/> NODEJS</h2>
-           <h2 className = 'icon'><DiJavascript1 className = 'ic'/> EXPRESSJS</h2>
-           <h2 className = 'icon'><FaSass className = 'ic'/> SASS</h2>
-           <h2 className = 'icon'><DiJavascript1 className = 'ic'/> JAVASCRIPT</h2>
-           <h2 className = 'icon'><FaJava className = 'ic'/> JAVA</h2>
-           <h2 className = 'icon'><SiCplusplus className = 'ic'/> C++</h2>
-           <h2 className = 'icon'><GrMysql className = 'ic'/> SQL</h2> 
-        </div>
-        </div>
+
+    <div className = 'grid-bottom'>
+        <div className = 'icon'><FaReact className = 'ic'/><label>REACTJS</label></div>
+        <div className = 'icon'><FaNode className = 'ic'/> <label>NODEJS</label></div>
+        <div className = 'icon'><DiJavascript1 className = 'ic'/><label>EXPRESSJS</label></div>
+        <div className = 'icon'><FaSass className = 'ic'/><label>SASS</label></div>
+        <div className = 'icon'><DiJavascript1 className = 'ic'/><label>JAVASCRIPT</label></div>
+        <div className = 'icon'><FaJava className = 'ic'/><label>JAVA</label></div>
+        <div className = 'icon'><SiCplusplus className = 'ic'/><label>C++</label></div>
+        <div className = 'icon'><GrMysql className = 'ic'/><label>SQL</label></div> 
     </div>
+        </div>
+    </Fade>
+    </div>
+   
     );
 }
 

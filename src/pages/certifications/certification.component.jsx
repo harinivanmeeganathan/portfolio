@@ -5,53 +5,76 @@ import './certification.styles.scss';
 class Certify extends React.Component {
 render(){
         return(
-    
-    <div className = 'certify-container'>
-        <div className = 'card-container'>
-        <Tilt options =  {{max:25,speed: 400,glare:true,"max-glare" : 1}}>
-            <div className = 'card'>
-                <div className = 'content'>
-                  
-                    <h3>Software Developer Intern, Solartis</h3>
-                    <p>Completed 3 months Internship</p>
-                    <button>@SOLARTIS</button>
+
+    <div className = 'cetification-conatiner'>
+    <h1 className = 'certify'>Certifications</h1>
+        <div className = 'certify-container'>
+        
+            <div className = 'card-container'>
+            <Tilt options =  {{max:25,speed: 400,glare:true,"max-glare" : 1}}>
+                <div className = 'card'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div className = 'content'>
+                    
+                        <h3>Software Developer Intern, Solartis</h3>
+                        <p>Completed 3 months Internship</p>
+                        <button>@SOLARTIS</button>
+                    </div>
                 </div>
-            </div>
-        </Tilt>
-        <Tilt options =  {{max:25,speed: 400,glare:true,"max-glare" : 1}}>
-            <div className = 'card'>
-                <div className = 'content'>
-                  
-                    <h3>Complete React Developer in 2021(w/Redux,Hooks,GraphQL)</h3>
-                    <p>Completed 40 hours online course by Andrei Neagoie and Yihua Zhang</p>
-                    <button>@UDEMY</button>
+            </Tilt>
+            <Tilt options =  {{max:25,speed: 400,glare:true,"max-glare" : 1}}>
+                <div className = 'card'>
+                <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div className = 'content'>
+                    
+                        <h3>Complete React Developer in 2021(w/Redux,Hooks,GraphQL)</h3>
+                        <p>Completed 40 hours online course by Andrei Neagoie and Yihua Zhang</p>
+                        <button>@UDEMY</button>
+                    </div>
                 </div>
-            </div>
-        </Tilt>    
-        <Tilt options =  {{max:25,speed: 400,glare:true,"max-glare" : 1}}>  
-            <div className = 'card'>
-                <div className = 'content'>
-                  
-                    <h3>ADVANCE JAVA</h3>
-                    <p>Completed 40 hours course Offline</p>
-                    <button>@SILICON SOFTWARE</button>
+            </Tilt>    
+            <Tilt options =  {{max:25,speed: 400,glare:true,"max-glare" : 1}}>  
+                <div className = 'card'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div className = 'content'>
+                    
+                        <h3>ADVANCE JAVA</h3>
+                        <p>Completed 40 hours course Offline</p>
+                        <button>@SILICON SOFTWARE</button>
+                    </div>
                 </div>
-            </div>
-        </Tilt>
-        <Tilt options =  {{max:25,speed: 400,glare:true,"max-glare" : 1}}>  
-            <div className = 'card'>
-                <div className = 'content'>
-                  
-                    <h3>CORE JAVA</h3>
-                    <p>Completed CORE JAVA as a part of ORACLE Workforce Development Program at Eyeopen Technologies</p>
-                    <button>@EYEOPEN TECHNOLOGIES</button>
+            </Tilt>
+            <Tilt options =  {{max:25,speed: 400,glare:true,"max-glare" : 1}}>  
+                <div className = 'card'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div className = 'content'>
+                    
+                        <h3>CORE JAVA</h3>
+                        <p>Completed CORE JAVA as a part of ORACLE Workforce Development Program at Eyeopen Technologies</p>
+                        <button>@EYEOPEN TECHNOLOGIES</button>
+                    </div>
                 </div>
+            </Tilt>
+
             </div>
-        </Tilt>
 
         </div>
 
-    </div>
+
+    </div>    
+
     );
 }
 }

@@ -1,0 +1,120 @@
+.resume-container .resume-title{
+    padding-top: 0%;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 3em;            
+    padding-left: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 48px;
+    //color:#DAE2F8;
+    //background: linear-gradient(to right,#DAE2F8 0%,#D6A4A4 100%);
+    background-color: #fbfbfd;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.resume-container{
+    margin-top: 0px;
+    height : 1000px;
+    background-color:#000;
+    // visibility: visible;
+    display: block;
+    //border: 2px solid;
+    //border-color: white;
+
+}
+
+.resume-container .resume .circle{
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+.resume-container .resume {
+    margin-left : 5%;
+    width : 90%;
+    height: 90vh;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 5px 15px rgba(255,255,255,0.1);
+    overflow: hidden;
+}
+.resume-container .resume span{
+    transition: 0.5;   
+}
+.resume-container .resume span:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right,transparent,#1779ff);
+    animation: animate1 2s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        translate: translateY(100%);
+    }
+}
+.resume-container .resume span:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom,transparent,#7F00FF);
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        translate: translateY(100%);
+    }
+}
+.resume-container .resume span:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left,transparent,#1779ff);
+    animation: animate3 2s linear infinite;
+}
+@keyframes animate3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        translate: translateX(-100%);
+    }
+}
+.resume-container .resume span:nth-child(4){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to top,transparent,#7F00FF);
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate4{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        translate: translateY(100%);
+    }
+}

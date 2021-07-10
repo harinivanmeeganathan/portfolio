@@ -8,11 +8,15 @@ const MenuContent = ({closeOverlay}) => (
         <Link className = 'about' to = '/about' onClick = {closeOverlay}>
             <div className = 'content'>ABOUT</div>
         </Link>    
+        <Link className = 'about' to = '/resume' onClick = {closeOverlay}>
             <div className = 'content'>RESUME</div>
+        </Link>
         <Link className = 'about' to = '/certification' onClick = {closeOverlay}>
             <div className = 'content'>CERTIFICATIONS</div>
         </Link>
+        <Link className = 'about' to = '/contact' onClick = {closeOverlay}>
             <div className = 'content'>CONTACT</div>
+        </Link>
         </div>
     </div>
 );
