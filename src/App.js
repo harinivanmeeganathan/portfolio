@@ -9,6 +9,8 @@ import About from './pages/about/about.component';
 import Header from './components/header/header.component';
 import Certify from './pages/certifications/certification.component';
 import Contact from './pages/contact/contact.component';
+import Resume from './pages/resume/resume.component';
+//import Test from './pages/test/test.comp';
 import Footer from './components/footer/footer.component';
 class App extends Component{
   
@@ -23,7 +25,7 @@ class App extends Component{
               <Route  path = '/certification' component = {Certify}/>
               <Route  path = '/about' component = {About}/>
               <Route  path = '/contact' component = {Contact}/>
-              
+              <Route  path = '/resume' component = {Resume}/>              
             </Switch>
             </SmoothProvider>
             <Footer/>

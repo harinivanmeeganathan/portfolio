@@ -1,19 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
-
+.about-container .aboutme{
+    padding-top: 0%;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 3.5rem;            
+    padding-left: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+    line-height: 48px;
+    background-color: #fbfbfd;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .about-container{
-    margin-top: 0px;
-    height: 900px;
-    background-color:#000;
-    // visibility: visible;
+    margin-top: -170px;
+    width:95%;
+    height: 1100px;
+    background-color:transparent;
     display: block;
     // border: 2px solid;
     // border-color: white;
-
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    
     .left-container{
         margin-top: 20px;
         margin-left: 50px;
         width:30%;
-        height: 50%;
+        height: 38%;
         float: left;
         // border: 2px solid;
         // border-color: black;
@@ -29,7 +44,7 @@
                 padding-bottom: 0.5rem;
                 padding-top: 0.5rem;
                 font-family: "Lusitana", Sans-serif;
-                color:  #f2f2f2;
+                color:  #617fff;
                 text-align: left;
                 font-weight: lighter;
                 font-size: 20px;
@@ -51,7 +66,7 @@
     .right-conatiner{
         float: right;
         width : 60%;
-        height: 50%;
+        height: 38%;
         margin-right: 30px;
         margin-top: 20px;
         // border: 2px solid;
@@ -86,7 +101,7 @@
         margin-top: 40px;
         margin-left: 50px;
         width: 94%;
-        height: 30%;
+        height: 25%;
         float: left;
         background-color:rgba(255,255,255,0.1);
         border-radius: 10px;
@@ -123,10 +138,11 @@
         padding-left: 60px;
         padding-top: 0px;
         padding-bottom: 2px;
+        margin-top: -20px;
     }
     .grid-bottom .icon .ic{
-        color: #33ccff;
-        padding-right: 1rem;
+        color: #617fff;
+        padding-right: 0rem;
         padding-top: 2.25rem;
         width: 50%;
         height: 50%;
@@ -145,16 +161,17 @@
         padding-left:4rem;
         top:2rem;
         left: 0;
-        width: 75%;
+        width: 83%;
         height: 80%;
         background: rgba(255,255,255,0.05);
         box-shadow: rgba(0,0,0,0.2);
         border-top: 1px solid rgba(255,255,255,0.1);
         border-bottom: 1px solid rgba(255,255,255,0.1);
-        border-radius: 30px;
+        border-radius: 7px;
         color: #fff;
         z-index: 1;
-        font-weight: 400;
+        font-size : xx-large;
+        font-weight: 100;
         letter-spacing: 1px;        
         overflow: hidden;
         transition: 0.5s;
@@ -162,6 +179,7 @@
     }   
     .grid-bottom .icon:hover label{
         letter-spacing: 3px;
+        font-size: larger;
     }
     .grid-bottom .icon label::before{
         content: '';
@@ -192,21 +210,7 @@
 }
     
 }
-.about-container .aboutme{
-    padding-top: 0%;
-    font-family: "Ubuntu",sans-serif;
-    font-size: 3em;            
-    padding-left: 0%;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
-    line-height: 48px;
-    //   color:#DAE2F8;
-    // background: linear-gradient(to right,#DAE2F8 0%,#D6A4A4 100%);
-    background-color: #fbfbfd;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 .about-container .left-container .lines,.about-container .right-conatiner .lines,.about-container .bottom-container .lines{
     transition: 0.5;   
@@ -281,3 +285,6 @@
         translate: translateY(100%);
     }
 }
+
+
+

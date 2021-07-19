@@ -1,13 +1,15 @@
 import React from 'react';
+import ParticlesBackground from '../../components/particles/particles.component';
 import Tilt from 'react-tilt'
 import './certification.styles.scss';
 
 class Certify extends React.Component {
 render(){
         return(
-
+<div>
+    <ParticlesBackground/>
     <div className = 'cetification-conatiner'>
-    <h1 className = 'certify'>Certifications</h1>
+    <h1 className = 'certify'>CERTIFICATIONS</h1>
         <div className = 'certify-container'>
         
             <div className = 'card-container'>
@@ -47,7 +49,7 @@ render(){
                     <span></span>
                     <div className = 'content'>
                     
-                        <h3>ADVANCE JAVA</h3>
+                        <h3>Advance Java</h3>
                         <p>Completed 40 hours course Offline</p>
                         <button>@SILICON SOFTWARE</button>
                     </div>
@@ -61,7 +63,7 @@ render(){
                     <span></span>
                     <div className = 'content'>
                     
-                        <h3>CORE JAVA</h3>
+                        <h3>Core Java</h3>
                         <p>Completed CORE JAVA as a part of ORACLE Workforce Development Program at Eyeopen Technologies</p>
                         <button>@EYEOPEN TECHNOLOGIES</button>
                     </div>
@@ -74,7 +76,7 @@ render(){
 
 
     </div>    
-
+</div>
     );
 }
 }

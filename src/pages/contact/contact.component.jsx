@@ -6,6 +6,7 @@ import {VscMail} from 'react-icons/vsc';
 import  {IoShareSocialOutline} from 'react-icons/io5';
 import Popup from '../../components/pop-up/pop-up.component';
 import FormPage from '../../components/form/form.component';
+import ParticlesBackground from '../../components/particles/particles.component';
 import './contact.styles.scss';
 
 
@@ -17,6 +18,8 @@ const Contact = () => {
    let giturl = 'https://github.com/harinivanmeeganathan';
     let linkedin = 'https://www.linkedin.com/in/harini-vanmeeganathan-87323714b/';
     return(
+   <div>     
+    <ParticlesBackground/>
     <div className = 'contact-container'>
         <div className = 'contact'>
             <span className = 'lines'></span>
@@ -54,6 +57,7 @@ const Contact = () => {
         </div>
 
     </div>
+</div>
 )
 };
 

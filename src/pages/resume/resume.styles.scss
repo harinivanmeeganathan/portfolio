@@ -1,49 +1,145 @@
-.resume-container .resume-title{
-    padding-top: 0%;
-    font-family: "Ubuntu",sans-serif;
-    font-size: 3em;            
-    padding-left: 0%;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
-    line-height: 48px;
-    //color:#DAE2F8;
-    //background: linear-gradient(to right,#DAE2F8 0%,#D6A4A4 100%);
-    background-color: #fbfbfd;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 .resume-container{
-    margin-top: 0px;
-    height : 1000px;
-    background-color:#000;
-    // visibility: visible;
+    margin-top: -100px;
+    height : 200vh;
+    width: 95%;
+    background-color:transparent;
     display: block;
-    //border: 2px solid;
-    //border-color: white;
-
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
-
-.resume-container .resume .circle{
-    width: 50px;
-    height: 50px;
-    margin-top: 100px;
-    margin-left: 100px;
-}
-
-
-
-
-
 
 .resume-container .resume {
-    margin-left : 5%;
-    width : 90%;
-    height: 90vh;
+    margin-right : 1000px;
+    margin-left: 150px;
+    width : 75% !important;  
+    height: 150vh;
     border-radius: 10px;
     backdrop-filter: blur(5px);
     box-shadow: 0 5px 15px rgba(255,255,255,0.1);
     overflow: hidden;
+}
+
+.resume-container .resume-title{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 3.5rem;            
+    padding-left: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+    line-height: 48px;
+    background-color: #fbfbfd;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.resume-container .resume .l-side{
+    float:left;
+    width: 35%;
+    height: 150vh;
+    background-color: #bae6dd52;
+}
+.resume-container .resume .l-side .l-boxes{
+    float:left;
+    margin-top: 150px;
+    margin-left: 2px;
+    width: 95%;
+    height: 145vh;
+    display: flex;
+    flex-direction: column;
+}
+.resume-container .resume .l-side .l-boxes .lbox{
+    float:left;
+    margin-left: 10px;
+    height: 100%;
+    width: 95%;
+}
+.resume-container .resume .l-side .l-boxes .lbox .head{
+    float:left;
+    margin-left: 5px;
+    height: 15%;
+    width: 95%;
+}
+.resume-container .resume .l-side .l-boxes .lbox .head label{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: 800;
+    color:#fff;
+}
+.resume-container .resume .l-side .l-boxes .lbox .content{
+    margin-left: 5px;
+    height: 60%;
+    width: 95%;
+}
+.resume-container .resume .l-side .l-boxes .lbox .content .l-list{
+    font-family: 'Poppins', sans-serif;
+    font-size : 1rem;
+    color:#fff;
+}
+.resume-container .resume .r-side{
+    float:right;
+    width: 65%;
+    height: 150vh;
+    background-color: #c5efe638;
+}
+.resume-container .resume .r-side .name-box{
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 85%;
+    height: 15%;
+   
+}
+.resume-container .resume .r-side .name-box .name-value{
+    font-family: 'Gelasio', serif;
+    font-size: 3.35rem;  
+    color:#fff;
+}
+.resume-container .resume .r-side .r-boxes{
+    float:right;
+    width: 99.5%;
+    height: 122vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+.resume-container .resume .r-side .r-boxes .r-box{
+    float:right;
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 96%;
+    height: 80%;
+   }
+.resume-container .resume .r-side .r-boxes .r-box .head1{
+    float:right;
+    margin-right: 25px;
+    height: 11%;
+    width: 94%;
+   }
+.resume-container .resume .r-side .r-boxes .r-box .head1 label{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: 800;
+    color:#fff;
+}
+.resume-container .resume .r-side .r-boxes .r-box .content1{
+    float:right;
+    margin-right: 25px;
+    height: 81%;
+    width: 94%;
+   }
+.resume-container .resume .r-side .r-boxes .r-box .content1 .r-list{
+    margin-top:0px;
+    font-family: 'Poppins', sans-serif;
+    font-size : 0.95rem;
+    color:#fff;
+}
+.resume-container .resume .r-side .r-boxes .r-box .content1 .r-list{
+    ul li p {
+        padding: 0.85px;
+        margin: 0;
+    }
 }
 .resume-container .resume span{
     transition: 0.5;   

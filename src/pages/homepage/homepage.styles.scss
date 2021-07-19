@@ -1,21 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+
 body{
     background-color: #000;
 }
-.homepage-conatiner{
-    width: 48vw;
-    margin-top: 70px;
+.homepage-container{
+    width: 95vw;
+    margin-top: 50px;
     margin-left: 20px;
-    border: 2px solid;
-    border-color: none;
-    height: 50vw;
+//    border: 2px solid;
+//    border-color: none;
+    height: 60vw;
     display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+
+.home-conatiner{
+    width: 48vw;
+    margin-top: 40px;
+    margin-left: 20px;
+  //  border: 2px solid;
+  //  border-color: none;
+    height: 40vw;
+    display: block;
+    float: left;
     .intro-container{
             margin-top: 50px;
             margin-left: 30px;
             height: 15vw;
             width: 45vw;  
-            border: 2px solid;
-            border-color:none;
+//            border: 2px solid;
+  //          border-color:none;
             display: block;
                 .label{
                     text-align: justify;
@@ -26,4 +45,6 @@ body{
                 }       
         
         }
+}
+
 }
