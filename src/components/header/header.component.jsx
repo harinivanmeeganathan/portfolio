@@ -5,6 +5,7 @@ import {ReactComponent as Menu} from '../../assests/menu.svg';
 import Overlay from '../overlay/overlay.component';
 import CloseIcon from '../close/close.component';
 import './header.styles.scss';
+
 const Header = () =>{
     const [changeIcon,setchangeIcon] = useState(false)
     const oniconClick = () => setchangeIcon(!changeIcon)

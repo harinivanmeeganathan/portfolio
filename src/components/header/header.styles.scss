@@ -3,7 +3,6 @@
   margin-left: 60px;
   height: 70px;
   width: 90%;  
-  //border: 2px solid;
   border-color: none;
   display: flex;
   justify-content: space-between;
@@ -31,3 +30,34 @@
     
 
 
+    @media screen and (max-width: 800px) {
+      .header{
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 70px;
+        width: 90%;  
+        border-color: none;
+        display: flex;
+        justify-content: space-between;
+       
+          .logo-container{
+          margin-left: 8px;
+          height: 90%;
+          width: 70px;
+          padding: 15px;
+          .logo{
+            width: 50px;
+            height: 40px;
+            cursor: pointer;
+          }
+        }
+          
+            .menu{
+              padding-top: 15px;
+              padding-left : 38px;
+              width: 40px;
+              height: 30px;
+              cursor: pointer;
+            }
+          }
+    }

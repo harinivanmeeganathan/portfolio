@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
-
 body{
     background-color: #000;
 }
@@ -8,8 +5,6 @@ body{
     width: 95vw;
     margin-top: 50px;
     margin-left: 20px;
-//    border: 2px solid;
-//    border-color: none;
     height: 60vw;
     display: block;
     position: absolute;
@@ -23,8 +18,6 @@ body{
     width: 48vw;
     margin-top: 40px;
     margin-left: 20px;
-  //  border: 2px solid;
-  //  border-color: none;
     height: 40vw;
     display: block;
     float: left;
@@ -33,8 +26,6 @@ body{
             margin-left: 30px;
             height: 15vw;
             width: 45vw;  
-//            border: 2px solid;
-  //          border-color:none;
             display: block;
                 .label{
                     text-align: justify;
@@ -42,9 +33,58 @@ body{
                     font-size: 35px;
                     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                     color: #fff;
+                    .styling{
+                        font-style: italic;
+                        text-shadow: 0 0 8px #fff;
+                        color: #d0e4e2;
+                    }
                 }       
         
         }
 }
 
+}
+
+@media screen and (max-width: 800px) {
+    .homepage-container{
+        width: 95vw;
+        margin-top: 155px;
+        margin-left: 1px;
+        height: 125vw;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+
+        .home-conatiner{
+            width: 90vw;
+            margin-top: 5px;
+            margin-left: 5px;
+            height: 120vw;
+            display: block;  
+             .intro-container{
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    height: 55vw;
+                    width: 85vw;  
+                    display: block;
+                        .label{
+                            text-align: justify;
+                            text-decoration: none;
+                            font-size: 28px;
+                            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            color: #fff;
+                            .styling{
+                                font-style: italic;
+                                text-shadow: 0 0 8px #fff;
+                                color: #d0e4e2;
+                            }
+                        }       
+                
+                }
+        }       
+    }
 }

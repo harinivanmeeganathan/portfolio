@@ -2,12 +2,10 @@ import React from 'react';
 import ParticlesBackground from '../../components/particles/particles.component';
 import './resume.styles.scss';
 
-
-
 const Resume = () => {
 return(
 <div>
-            <ParticlesBackground/>
+    <ParticlesBackground/>
     <div className = 'resume-container'>
         <h1 className = 'resume-title'>Resume</h1> 
                 
@@ -20,8 +18,7 @@ return(
             <div className = 'l-boxes'>
             <div className = 'lbox'>
                 <div className = 'head'><label>OBJECTIVE</label></div>
-                    <div className = 'content'><label  className = 'l-list'>I am extremely motivated to constantly develop my skills and grow professionally. I am confident
-                    in my ability to gain an exposure that would help me to build a strong and successful career.</label></div>
+                    <div className = 'content'><label  className = 'l-list'>Self-motivated, highly passionate and hardworker looking for an opportunity to work in a challenging organization to utilize my skills and knowledge to work for the growth of the organisation.</label></div>
                     </div>
             <div className = 'lbox'>
             <div className = 'head'><label>SKILLSET</label></div>

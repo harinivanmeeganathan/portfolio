@@ -46,13 +46,15 @@ const About = () => {
                 <span className='lines'></span>
                 <div className = 'intro'>
                     <h2 className = 'name'>
-                        Hi, I'm Harini Vanmeeganathan
+                        It's me, Harini Vanmeeganathan
                     </h2>
                     <h3 className = 'work'>
                         Currently working as a Software Developer @ solartis.pvt.ltd
                     </h3>
                     <div className = 'para'>
-
+                        <label>I am extremely motivated to constantly develop my skills and grow professionally. I am confident
+                        in my ability to gain an exposure that would help me to build a strong and successful career. To solve problems in a creative and effective manner in a challenging position.
+                        </label>      
                     </div>
                 </div> 
             
