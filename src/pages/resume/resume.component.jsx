@@ -27,7 +27,7 @@ return(
             <ul>
                 <li>Skilled in Web Development: HTML5, CSS3, SCSS,
                     JavaScript, NodeJS, ExpressJS, ReactJS</li>
-                <li>SKILLS Programming languages: C, C++, Java, SQL</li>
+                <li>Programming languages: C, C++, Java, SQL</li>
                 <li>Version control system: Github, Gitlab, SVN</li>
             </ul>
             </label>

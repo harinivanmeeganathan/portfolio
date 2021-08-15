@@ -13,7 +13,30 @@ body{
     margin-right: -50%;
     transform: translate(-50%, -50%);
     background-color: transparent;
-
+//    border: 2px solid white;
+    @media screen and (max-width: 1024px) {
+        width: 95vw;
+        margin-top: 4%; 
+        height: 55vw;
+        margin-left: 0%;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+        width: 90vw;
+        margin-top: 5%;
+        margin-left: 0%;
+        height: 60vw;
+    }
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        width: 98vw;
+        margin-top: 5%;
+        margin-left: 0%;
+        height: 60vw;
+    }
+    @media screen and (min-device-width: 325px) and (max-device-width: 480px) and (orientation:portrait) {
+        width: 95vw;
+        margin-top: 25%;
+        height: 82vw;
+    }
 .home-conatiner{
     width: 48vw;
     margin-top: 40px;
@@ -21,18 +44,74 @@ body{
     height: 40vw;
     display: block;
     float: left;
+//    border: 2px solid white;
+    @media screen and (max-width: 1024px) {
+        width: 92vw;
+        margin-top: 2%;
+        margin-left: 1%;
+        height: 45vw;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+        width: 86vw;
+        margin-top: 2%;
+        margin-left: 2%;
+        height: 56vw;
+    }
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        width: 93vw;
+        margin-top: 2%;
+        margin-left: 2%;
+        height: 56vw;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        width: 90vw;
+        margin-top: 2%;
+        margin-left: 2%;
+        height: 77vw;
+    }
     .intro-container{
             margin-top: 50px;
             margin-left: 30px;
             height: 15vw;
             width: 45vw;  
             display: block;
-                .label{
+  //          border: 2px solid white;
+        @media screen and (max-width: 1024px) {
+            margin-top: 2%;
+            margin-left: 1%;
+            height: 20vw;
+            width: 88vw;          
+        }    
+        @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+                margin-top: 2%;
+                margin-left: 2%;
+                height: 25vw;
+                width: 80vw;  
+            }
+        @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+            margin-top: 2%;
+            margin-left: 2%;
+            height: 25vw;
+            width: 90vw;  
+        }
+        @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {   
+            margin-top: 2%;
+            margin-left: 2%;
+            height: 35vw;
+            width: 86vw;  
+        }
+           .label{
                     text-align: justify;
                     text-decoration: none;
                     font-size: 35px;
                     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                     color: #fff;
+                    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+                        font-size: 1.60rem;
+                    }
+                    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {   
+                        font-size: 1.30rem;
+                    }
                     .styling{
                         font-style: italic;
                         text-shadow: 0 0 8px #fff;
@@ -44,47 +123,4 @@ body{
 }
 
 }
-
-@media screen and (max-width: 800px) {
-    .homepage-container{
-        width: 95vw;
-        margin-top: 155px;
-        margin-left: 1px;
-        height: 125vw;
-        display: block;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        background-color: transparent;
-
-        .home-conatiner{
-            width: 90vw;
-            margin-top: 5px;
-            margin-left: 5px;
-            height: 120vw;
-            display: block;  
-             .intro-container{
-                    margin-top: 10px;
-                    margin-left: 10px;
-                    height: 55vw;
-                    width: 85vw;  
-                    display: block;
-                        .label{
-                            text-align: justify;
-                            text-decoration: none;
-                            font-size: 28px;
-                            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                            color: #fff;
-                            .styling{
-                                font-style: italic;
-                                text-shadow: 0 0 8px #fff;
-                                color: #d0e4e2;
-                            }
-                        }       
-                
-                }
-        }       
-    }
-}
+    

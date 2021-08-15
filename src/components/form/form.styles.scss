@@ -4,6 +4,14 @@
     border-radius: 10px;
     background-color:rgba(255,255,255,0.1);
     backdrop-filter: blur(5px);
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+        width :  42vw;
+        height: 24vh; 
+    }
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        margin-left: -5.5%;  
+      }
+ 
 }
 .form .in-form{
     padding-top: 20px;
@@ -12,6 +20,9 @@
     align-items: center;
     flex-wrap: wrap;
     row-gap: 15px;
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+      margin-right: 13%;  
+    } 
 }
 input,textarea{
     width: 250px;
@@ -30,40 +41,4 @@ input:placeholder-shown,textarea:placeholder-shown{
 }
 input:focus, textarea:focus{
     box-shadow: 0 0 10px #fff;
-}
-@media screen and (max-width: 800px) {
-    .form  {
-        margin-bottom: 100px;
-        width :  350px;
-        height: 180px;
-        border-radius: 10px;
-        background-color:rgba(255,255,255,0.1);
-        backdrop-filter: blur(5px);
-    }
-    .form .in-form{
-        padding-top: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-        row-gap: 10px;
-    }
-    input,textarea{
-        width: 250px;
-        background: transparent;
-        color: #fff;
-        font-family: "Lusitana", Sans-serif;
-        outline: none;
-        font-size: 6px;
-        border-radius: 10px;
-        padding: 10px;
-        box-shadow: 0 0 1px #fff;
-        transition: box-shadow 0.5s ease;
-    }
-    input:placeholder-shown,textarea:placeholder-shown{
-        color: #fff;
-    }
-    input:focus, textarea:focus{
-        box-shadow: 0 0 10px #fff;
-    }
 }
