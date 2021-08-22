@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brawler&display=swap');
 .header{
   margin-top: 10px;
   margin-left: 60px;
@@ -6,7 +12,6 @@
   border-color: none;
   display: flex;
   justify-content: space-between;
-//  border: 2px solid white;
   @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
     margin-left: 3%;
   }
