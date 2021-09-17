@@ -1,0 +1,24 @@
+#overlay{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+}
+.overlay-container{
+    background-color: rgba(1, 1, 1, 0.575) ;
+    backdrop-filter: blur(2rem);
+    transform: translate3d(0px,0px,0px);
+    visibility: visible; 
+}
+
+.overlay-content{
+    position:  fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display:block;
+    z-index: 100;
+    overflow: hidden;
+ 
+}

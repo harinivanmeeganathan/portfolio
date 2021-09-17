@@ -1,0 +1,130 @@
+.contact-container{
+    margin: 4rem 8rem;
+    // @media screen and (max-width: 1024px) {
+    //     margin-top: 25%;
+    //     }
+    //     @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    //         margin-top: 38%;
+    //         width:80%;
+    //     }
+    //     @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+    //         margin-top: 65%;
+    //     }
+    //     @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+    //         margin-top: 105%;
+    //       } 
+    .title{
+        padding-top: 0%;
+        font-family: 'Raleway', sans-serif;
+        // font-family: 'Merriweather', serif;
+        font-weight: 300;
+        font-size: 3rem;            
+        padding-left: 0%;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 7px;
+        background-color: #fbfbfd;
+    
+      -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+            font-size: 2.4rem;          
+        }
+        @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+            font-size: 1.5rem;          
+        }
+        @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+            font-size:  1rem;
+        }
+    }    
+    .contact{
+        margin : auto;
+        padding: 10px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        box-shadow: 4px 5px 4px 3px #5904a823;
+        border: 1.7px solid rgba(200, 137, 230, 0.637);
+        overflow: hidden;
+        @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+            width:100%;
+            height: 90%;
+            margin-right: 50%;
+          }
+          @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+            width:35.5%;
+            height: 90%;
+            margin-left: 32.5%;
+        }
+
+    .box-two{
+        position: relative;
+        margin: auto;
+        padding: 10px;
+        width:92%;
+        height: 40%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;        
+        align-items: center;
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+ 
+        .btn{
+            display: block;
+            padding: 8px 20px;
+            margin-top: 10px;
+            margin-left: 160px;
+            text-decoration: none;
+            background: #fff;
+            color: #000;
+            border-radius: 20px;
+            text-decoration: none;
+            font-family: "Lusitana", Sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+            border-top: 2px solid ;    
+            border-left: 2px solid;
+            border-top-color: #CF8BF3;
+            border-left-color: #CF8BF3;
+            outline: none;    
+            cursor: pointer;
+            transition: all 300ms ease-in-out;
+            @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+                margin-top: 5%;
+                margin-left: 40%;
+            }
+            @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+               margin-top: 4%;
+              }
+              @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+                margin-top: 4%;
+                margin-left: 35%;  
+              } 
+        }
+    }
+    .box-two .mailme{
+        font-family: "Lusitana", Sans-serif;
+        font-weight: normal;
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 7px;
+        background-color: #cd5ff8;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+            font-size: 2.4rem;          
+        }
+          @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+            font-size: 1.5rem;            
+        }
+        @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+            font-size: 0.99rem;
+        }
+    } 
+}
+    
+}

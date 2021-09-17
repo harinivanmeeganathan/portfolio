@@ -1,0 +1,188 @@
+.about-container .aboutme{
+    padding-top: 0%;
+    font-family: 'Raleway', sans-serif;
+    // font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 3rem;            
+    padding-left: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+    background-color: #fbfbfd;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        font-size: 2.5rem;           
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {  
+        font-size: 2rem;    
+    }
+}
+.about-container{
+    
+    // @media screen and (max-width: 1024px) {
+    //     margin-top: 4%;
+    // }
+    // @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    //     margin-top: 20%;
+    // }
+    // @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+    //     margin-top: 48%;
+    // }
+    // @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {   
+    //     margin-top: 95%;
+    // }
+    .left-container{
+        margin: 2rem;
+        width:30%;
+        height: 38%;
+        float: left;
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        box-shadow: 4px 5px 4px 3px #5904a823;
+        border: 1.7px solid rgba(200, 137, 230, 0.637);
+        overflow: hidden;
+        @media screen and (max-width: 1024px) {
+            margin-left: 2%;
+        }
+        @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+            margin-left: 0%;
+            width : 35%;
+        }
+        @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+            margin-left: 0%;
+            width:36%;
+        }
+        @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {   
+            margin-left: 0%;
+            width: 35%;
+        }
+        .ul{
+            margin-top: 2.75rem;
+            list-style-type: none;
+            @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+            margin-left: -12%;
+            }
+            @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+                margin-left: -18%;
+            }
+            @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+                margin-left: -25%;
+                margin-top: 1rem;
+            }       
+            .li{
+                font-family: "Lusitana", Sans-serif;
+                color:  #cd5ff8;
+                text-align: left;
+                font-weight: lighter;
+                font-size: 20px;
+                word-wrap: break-word;
+                @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+                    font-size: 1rem;
+                }
+            }
+            .val{
+                font-family: "Lusitana", Sans-serif;
+                color:  #f6f6f6;
+                text-align: left;
+                font-weight: lighter;
+                font-size: 15px;
+                font-style: italic;
+                word-wrap: break-word;
+                @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+    .right-conatiner{
+        float: right;
+        width : 60%;
+        height: 38%;
+        padding-bottom: 5.5rem;
+        margin: 2rem;
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        box-shadow: 4px 5px 4px 3px #5904a823;
+        border: 1.7px solid rgba(200, 137, 230, 0.637);
+        overflow: hidden;
+        @media screen and (max-width: 1024px) {
+            margin-right: 1%;
+        }
+        @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+        margin-right: 1%;
+        }
+        @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+            margin-right: 0%;
+            width : 62%;
+        }
+        @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {   
+            margin-right: 0%;
+            width : 62%;
+        }
+        .intro{
+            margin-top: 3rem;
+            margin-left: 2rem;
+            @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+                margin-left: 5%;
+                margin-top: 1rem;
+            }       
+            .name{
+            font-size: 2rem;
+            font-family: 'Poppins', sans-serif;
+            color: #f2f2f2;
+            text-align: left;
+            font-weight: normal;
+            @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+                font-size: 1.5rem;
+            }
+        }
+        .work{
+            font-size: 1rem;
+            font-family: 'Poppins', sans-serif;
+            color:  #f6f6f6;
+            text-align: left;  
+            font-style: oblique 30deg; 
+            font-weight: normal;
+            @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+             font-size: 0.6rem;
+            }
+        }
+        .para label{
+            font-size: larger;
+            font-family: 'Poppins', sans-serif;
+            color:  #f6f6f6;
+            text-align: left; 
+            font-style: italic; 
+            @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    }
+    .bottom-container{
+        width: 98%;
+        height: 25%;
+        float: left;
+        @media screen and (max-width: 1024px) {
+            margin-left: 0%;
+            width: 100%;
+        }
+        @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+            height: 35%;
+        }
+        @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+            height: 35%;
+        }
+        h1{
+            font-family: "Lusitana", Sans-serif;
+            color:  #cd5ff8;
+            text-align: center;
+            font-weight: normal;
+            font-size: 2rem;
+        }
+}
+}
+
+
+

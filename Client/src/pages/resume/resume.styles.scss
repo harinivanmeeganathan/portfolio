@@ -1,0 +1,285 @@
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    // @media screen and (max-width: 1024px) {
+    //     margin-top: 95%;
+    //     width: 123%;
+    // }
+    // @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    //     margin-top: 94%;
+    // }
+    // @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+    //     margin-top: 90%;
+    // }
+    // @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+    //     margin-top: 135%;
+    //     }
+}
+
+.resume-container .resume {
+    width : 75% !important;  
+    height: 150vh;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 5px 4px 3px #5904a823;
+    border: 1.7px solid #9900e2a3;
+    overflow: hidden;
+    @media screen and (max-width: 1024px) {
+        height: 90vh;
+        width:76% !important;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+        height: 120vh;
+        margin-left: 12%;
+    }
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        height: 145vh;
+        margin-left: 12%;
+        }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {  
+        height: 165vh;
+        margin-left: 12%;
+    }   
+}
+
+.resume-container .resume-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;            
+    padding-left: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+    line-height: 48px;
+    background-color: #fbfbfd;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        font-size: 1.5rem;            
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        font-size: 1.5rem;            
+    }    
+}
+
+.resume-container .resume .l-side{
+    float:left;
+    width: 35%;
+    height: 150vh;
+    background-color: #5d006b47;
+    box-shadow: 4px 5px 20px 11px #23004461;
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        height: 165vh;
+    }
+}
+.resume-container .resume .l-side .l-boxes{
+    float:left;
+    margin-top: 150px;
+    margin-left: 2px;
+    width: 95%;
+    height: 145vh;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 1024px) {
+        height: 90vh;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+        height: 120vh;
+    }
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        height: 145vh;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        height: 165vh;
+    } 
+}
+.resume-container .resume .l-side .l-boxes .lbox{
+    float:left;
+    margin-left: 10px;
+    height: 100%;
+    width: 95%;
+    @media screen and (max-width: 1024px) {
+        height: 25%;
+        }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px){    
+        height: 35%;
+    }
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        height: 45%;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        height: 45%;
+    }  
+}
+.resume-container .resume .l-side .l-boxes .lbox .head{
+    float:left;
+    margin-left: 5px;
+    height: 15%;
+    width: 95%;
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        margin-left: -3%;
+    }
+}
+.resume-container .resume .l-side .l-boxes .lbox .head label{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: 800;
+    color: #ff00eb;
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        font-size: small;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        font-size: smaller;
+    }
+}
+.resume-container .resume .l-side .l-boxes .lbox .content{
+    margin-left: 5px;
+    height: 60%;
+    width: 95%;
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        margin-left: -5%;
+    }
+}
+.resume-container .resume .l-side .l-boxes .lbox .content .l-list{
+    font-family: 'Poppins', sans-serif;
+    font-size : 1rem;
+    color:#fff;
+    @media screen and (max-width: 1024px) {
+        margin-top: 3%;
+    }
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        font-size: 0.9rem;
+    } 
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        font-size: 0.75rem;
+    }  
+}
+.resume-container .resume .r-side{
+    float:right;
+    width: 65%;
+    height: 150vh;
+    background-color: #7400ff1a;
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        height: 165vh;
+    }
+}
+.resume-container .resume .r-side .name-box{
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 85%;
+    height: 15%;
+    @media screen and (max-width: 1024px) {
+        width: 45%;
+        height: 10%;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+        width: 45%;
+        height: 10%;
+    } 
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        height: 10%;
+        margin-left: 15%;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        height: 5%;
+        margin-left: 10%;
+    }
+}
+.resume-container .resume .r-side .name-box .name-value{
+    font-family: 'Gelasio', serif;
+    font-size: 3.35rem;  
+    color:#fff;
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+     font-size: 2.3rem;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        font-size: 1.7rem;
+    }
+}
+.resume-container .resume .r-side .r-boxes{
+    float:right;
+    width: 99.5%;
+    height: 122vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    @media screen and (max-width: 1024px) {
+        height: 90vh;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px){ 
+        height: 120vh;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        height: 165vh;
+    }
+}
+.resume-container .resume .r-side .r-boxes .r-box{
+    float:right;
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 96%;
+    height: 80%;
+    @media screen and (max-width: 1024px) {
+    height: 25%;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+        height: 30%;
+    } 
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        height: 50%;
+        margin-top: 15%;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        height: 36%;
+        margin-top: 10%;
+    }  
+   }
+.resume-container .resume .r-side .r-boxes .r-box .head1{
+    float:right;
+    margin-right: 25px;
+    height: 11%;
+    width: 94%;
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        margin-right: 5%;
+    }   
+}
+.resume-container .resume .r-side .r-boxes .r-box .head1 label{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: 800;
+    color:#6e00ff;
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        font-size: small;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        font-size: smaller;
+    }
+}
+.resume-container .resume .r-side .r-boxes .r-box .content1{
+    float:right;
+    margin-right: 25px;
+    height: 81%;
+    width: 94%;
+   }
+.resume-container .resume .r-side .r-boxes .r-box .content1 .r-list{
+    margin-top:0px;
+    font-family: 'Poppins', sans-serif;
+    font-size : 0.95rem;
+    color:#fff;
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        font-size: 0.75rem;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        font-size: 0.75rem;
+    }
+}
+.resume-container .resume .r-side .r-boxes .r-box .content1 .r-list{
+    ul li p {
+        padding: 0.85px;
+        margin: 0;
+    }
+}
+
+

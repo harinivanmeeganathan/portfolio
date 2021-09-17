@@ -1,0 +1,56 @@
+.purple {
+    color: #fff;
+  }
+.introSocial {
+    margin-right: 2rem;
+    margin-top: -10rem;
+    text-align: center;
+    float: right;
+    h1 {
+      font-size: 1rem;
+    }
+    p {
+      margin-top: 1rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+  
+  .socialLinks {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 0rem;
+    padding-inline-start: 0;
+    list-style: none;
+  }
+  
+  .socialLink {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .socialIcon {
+    padding: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--social-icon);
+    background: hsla(0,0%,100%,.972);
+    border-radius: 50%;
+    transition: .5s;
+  }
+  
+  .socialIcon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px var(--social-shadow);
+  }
+  a .icon{
+    color: #7f00ff;
+  }
