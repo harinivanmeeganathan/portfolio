@@ -2,20 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    // @media screen and (max-width: 1024px) {
-    //     margin-top: 95%;
-    //     width: 123%;
-    // }
-    // @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
-    //     margin-top: 94%;
-    // }
-    // @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
-    //     margin-top: 90%;
-    // }
-    // @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
-    //     margin-top: 135%;
-    //     }
+
 }
 
 .resume-container .resume {
@@ -124,14 +111,14 @@
 }
 .resume-container .resume .l-side .l-boxes .lbox .head label{
     font-family: 'Poppins', sans-serif;
-    font-size: larger;
+    font-size: 1.25rem;
     font-weight: 800;
     color: #ff00eb;
     @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
-        font-size: small;
+        font-size: 0.813rem;
     }
     @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
-        font-size: smaller;
+        font-size: 0.813rem;
     }
 }
 .resume-container .resume .l-side .l-boxes .lbox .content{
@@ -191,11 +178,14 @@
     font-family: 'Gelasio', serif;
     font-size: 3.35rem;  
     color:#fff;
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    font-size: 2.4rem;
+    }
     @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
-     font-size: 2.3rem;
+     font-size: 1.7rem;
     }
     @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
 }
 .resume-container .resume .r-side .r-boxes{
@@ -251,10 +241,10 @@
     font-weight: 800;
     color:#6e00ff;
     @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
-        font-size: small;
+        font-size: 0.813rem;
     }
     @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
-        font-size: smaller;
+        font-size: 0.688rem;
     }
 }
 .resume-container .resume .r-side .r-boxes .r-box .content1{

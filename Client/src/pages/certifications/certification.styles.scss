@@ -1,22 +1,3 @@
-.cetification-conatiner {
-   
-    // @media screen and (max-width: 1024px) {
-    //     margin-top: 25%;
-    //     margin-left: 0%;
-    // }
-    // @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
-    //     margin-top: 40%;
-    //     margin-left: 0%;
-    // }
-    // @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
-    //     margin-top: 160%;
-    //     margin-left: 0%;
-    // }
-    // @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
-    //     margin-top: 225%;
-    //     margin-left: 0%;
-    // }
-}
 .certify-container{
     height : 900px;
     //display: block;
@@ -99,7 +80,7 @@
     position: absolute;
     top : -80px;
     right: 30px;
-    font-size: 8em;
+    font-size: 8rem;
     color: rgba(255,255,255,0.05);
     pointer-events: none;
 }

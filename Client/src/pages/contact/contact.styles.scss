@@ -1,22 +1,9 @@
 .contact-container{
     margin: 4rem 8rem;
-    // @media screen and (max-width: 1024px) {
-    //     margin-top: 25%;
-    //     }
-    //     @media screen and (min-device-width: 768px) and (max-device-width: 1023px){
-    //         margin-top: 38%;
-    //         width:80%;
-    //     }
-    //     @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
-    //         margin-top: 65%;
-    //     }
-    //     @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
-    //         margin-top: 105%;
-    //       } 
+   
     .title{
         padding-top: 0%;
         font-family: 'Raleway', sans-serif;
-        // font-family: 'Merriweather', serif;
         font-weight: 300;
         font-size: 3rem;            
         padding-left: 0%;
@@ -84,7 +71,7 @@
             text-decoration: none;
             font-family: "Lusitana", Sans-serif;
             font-weight: bold;
-            font-size: 12px;
+            font-size: 0.75rem;
             border-top: 2px solid ;    
             border-left: 2px solid;
             border-top-color: #CF8BF3;
