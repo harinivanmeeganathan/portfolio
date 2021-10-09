@@ -4,7 +4,7 @@ import axios from 'axios';
 import './form.styles.scss';
 
 function Formpage() {
-    const initialState = { name: 'hehe', email: 'test@mail.com', message: 'work now'};
+    const initialState = { name: '', email: '', message: ''};
     const [value, setValue] = useState({ ...initialState });
 
     const handleChange = (event) => {
