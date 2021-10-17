@@ -30,23 +30,32 @@ const sendMail = async (values) => {
 
         const options = {
             from: 'harinivanmeeganathan@gmail.com',
-            to: values.email,
-            subject: `${values.name}`,
-            text: values.message
+            to: 'harinivanmeeganathan@gmail.com',
+            subject: `${values.subject}`,
+            text: `${values.text} 
+            email : ${values.to}`
         };
-
-        transporter.sendMail(options, function (err, info) {
-            if (err) {
-                console.log(err);
-                return false;
-            }
-            return true;
-        })
+        let res = await transportMail(transporter, options);
+        return res;
 
     } catch (e) {
         return e;
     }
 
+}
+
+const transportMail = (transporter, options) => {
+    return new Promise((resolve, reject) => {
+        transporter.sendMail(options, function (err, info) {
+            console.log(info);
+            if (err) {
+                console.log(err);
+                resolve(false);
+            } else {
+                resolve(true);
+            }
+        })
+    })
 }
 
 module.exports = sendMail;

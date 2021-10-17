@@ -18,28 +18,28 @@ app.get('/api', (req, res) => {
     console.log('greet', req.body)
 })
 
-app.get('/api/mail', async(req, res) => {
+app.get('/api/mail', async (req, res) => {
     console.log('Mail Sent !!!', req.body)
     const isSend = await sendMail({
         from: 'harinivanmeeganathan@gmail.com',
         to: 'harinivanmeeganathan@gmail.com',
-        subject:'Name',
+        subject: 'Name',
         text: 'message'
 
     })
-        
+
     console.log(isSend)
     if (isSend) {
         res.status(200).json({
             status: 'Success',
             message: 'Mail Sent !!!'
         })
-    }else{
-    res.status(400).json({
-        status: 'Failed',
-        message: 'Unable to Send Mail !'
-    })
-}
+    } else {
+        res.status(400).json({
+            status: 'Failed',
+            message: 'Unable to Send Mail !'
+        })
+    }
 })
 
 app.use(express.static('Client/build'));
