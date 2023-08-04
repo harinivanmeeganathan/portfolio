@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brawler&display=swap');
+
+.header{
+  padding-top: 1rem;
+  padding-left: 2rem;
+  height: 70px;
+  width: 90%;  
+  border-color: none;
+  display: flex;
+  justify-content: space-between;
+  @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+    margin-left: 3%;
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1023px),(min-width: 1024px){
+    margin-left: 5%;
+  }
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+    margin-left: 3%;
+  }
+  .logo-container{
+    margin-left: 8px;
+    height: 50%;
+    width: 40px;
+    padding: 15px;
+    z-index: 110;
+    .logo{
+      width: 50px;
+      height: 40px;
+      cursor: pointer;
+    }
+  }
+    
+  .menu{
+    padding-top: 15px;
+    padding-left : 8px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .menu-container{
+    z-index: 110;
+  }
+}
+    
+

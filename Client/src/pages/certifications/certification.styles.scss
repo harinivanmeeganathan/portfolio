@@ -1,0 +1,139 @@
+.certify-container{
+    height : 900px;
+    //display: block;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //min-height: 100vh;
+    content: '';
+}
+.cetification-conatiner .certify {
+    padding-top: 0%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;            
+    padding-left: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+    line-height: 48px;
+    background-color: #fbfbfd;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+        margin-bottom : 200%;
+        font-size: 2.5rem;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        margin-bottom : 250%;
+        font-size: 1.75rem;
+    }
+}
+
+.card-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    @media screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation:portrait) {
+    margin-bottom: 230%;
+    }
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+        margin-bottom: 252%;
+    }
+}
+
+.card-container .card{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);    
+}
+
+.card-container .card .content {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(20px);
+    //opacity: 0;
+    font-family: "Lusitana", Sans-serif;
+}
+
+.card-container .card:hover .content {
+    transform: translateY(-20px);
+    opacity: 1;
+}
+.card-container .card .content h2 {
+    position: absolute;
+    top : -80px;
+    right: 30px;
+    font-size: 8rem;
+    color: rgba(255,255,255,0.05);
+    pointer-events: none;
+}
+
+.card-container .card .content h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Gelasio';
+    z-index: 1;
+}
+
+.card-container .card .content p {
+    font-size: .9rem;
+    font-family: 'Raleway';
+    color:#ffffff94;
+    font-weight: 300;
+    
+}
+
+.card-container .card .content div {
+    position: relative;
+    display: inline-block;
+    padding: .5rem 1rem;
+    margin-top: 15px;
+    //background-color: #e4abff4f;
+    color: white;
+    border-radius: 8px;
+    border : 1.75px solid #cd5ff8;
+    text-decoration: none;
+    font-family: "fantasy";
+//    box-shadow: 7px 7px 0px 0px #a300ff85;
+}
+.card-container .card .content div::before,.card-container .card .content div::after{
+    content: "";
+    position: absolute;
+    width:10px;
+    height:5px;
+    background:#6e00ff;
+    transform: skewX(50deg);
+    transition: .4s linear;
+}
+.card-container .card .content div::before{
+    top: -4px;
+    left: 10%;   
+}
+.card-container .card .content div::after{
+    bottom: -4px;
+    right: 10%;
+}
+.card-container .card .content div:hover::before{
+    left:80%;
+}
+.card-container .card .content div:hover::after{
+    right: 80%;
+}
