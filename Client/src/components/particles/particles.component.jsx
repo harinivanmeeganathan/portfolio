@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { particleJSON } from '../../models/particles';
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 import './particles.styles.scss';
 class ParticlesBackground extends Component {
     render() {

@@ -8,13 +8,24 @@ import {
   DiMongodb,
   DiGit,
   DiSass,
+  DiPython,
+  DiAws
 } from 'react-icons/di';
-import { SiRedux } from 'react-icons/si';
+import { SiRedux,SiTensorflow,SiJupyter,SiPowerbi,SiPostgresql } from 'react-icons/si';
 import './skills.styles.scss';
 
 const TechSkills = () => {
   return (
     <ul className='container'>
+      <li className='techIcon'>
+        <DiPython/>
+      </li>
+      <li className='techIcon'>
+        <SiTensorflow/>
+      </li>
+      <li className='techIcon'>
+        <SiPowerbi/>
+      </li>
       <li className='techIcon'>
         <DiJavascript1 />
       </li>
@@ -26,6 +37,12 @@ const TechSkills = () => {
       </li>
       <li className='techIcon'>
         <FaJava/>
+      </li>
+      <li className='techIcon'>
+        <DiAws/>
+      </li>    
+      <li className='techIcon'>
+        <SiPostgresql/>
       </li>
       <li className='techIcon'>
         <DiMongodb />
@@ -41,6 +58,9 @@ const TechSkills = () => {
       </li>
       <li className='techIcon'>
         <SiCplusplus />
+      </li>
+      <li className='techIcon'>
+        <SiJupyter/>
       </li>
       <li className='techIcon'>
         <DiGit />

@@ -7,7 +7,7 @@ const Footer = () => (
     <div className = 'footer-container'>
         <label className = 'copyright'>Copyright</label>
         <FcCopyright className = 'copyright-icon'/>
-        <label className = 'copyright'>2021 Harini Vanmeeganathan</label>
+        <label className = 'copyright'>2024 Harini Vanmeeganathan Lakshmi</label>
     </div>
 );
 

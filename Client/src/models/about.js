@@ -1,7 +1,7 @@
 export const Details = [
     {
         title : 'BORN PLACE',
-        value: 'VELLORE, TAMIL NADU'
+        value: 'INDIA'
     },
     {
         title : 'RESIDENCE',

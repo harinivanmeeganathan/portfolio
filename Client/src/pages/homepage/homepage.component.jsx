@@ -15,7 +15,7 @@ const HomePage = () => (
             <div className='home-conatiner'>
                 <div className='intro-container'>
                     <label className='label'>
-                        Greetings! I'm <label className='styling'>Harini Vanmeeganathan</label>, a <label className='styling'>software developer</label> committed to expertise my technical skills with a charismatic attitude.
+                        Greetings! I'm <label className='styling'>Harini Vanmeeganathan Lakshmi</label>, a <label className='styling'>Full Stack developer</label> committed to expertise my technical skills with a charismatic attitude.
                     </label>
                 </div>
                 <div className='intro-container'>

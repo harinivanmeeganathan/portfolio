@@ -1,5 +1,5 @@
 import React, { lazy, Suspense,Component } from 'react';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { SmoothProvider } from 'react-smooth-scrolling'
 import ParticlesBackground from './components/particles/particles.component';
 import './App.css';
@@ -22,13 +22,13 @@ class App extends Component {
           <Suspense fallback={<div />}>
           <Header />
           <SmoothProvider skew={false}>
-            <Switch>
-              <Route exact path='/' component={HomePage} />
-              <Route path='/certification' component={Certify} />
-              <Route path='/about' component={About} />
-              <Route path='/contact' component={Contact} />
-              <Route path='/resume' component={Resume} />
-            </Switch>
+            <Routes>
+              <Route exact path='/' element={<HomePage/>} />
+              <Route path='/certification' element={<Certify/>} />
+              <Route path='/about' element={<About/>} />
+              <Route path='/contact' element={<Contact/>} />
+              <Route path='/resume' element={<Resume/>} />
+            </Routes>
           </SmoothProvider>
           <Footer />
         </Suspense>

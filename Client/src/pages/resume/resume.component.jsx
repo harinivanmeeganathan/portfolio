@@ -34,7 +34,8 @@ const Resume = () => {
                                         <ul>
                                             <li>Positive Thinker</li>
                                             <li>Enthusiastic</li>
-                                            <li>Work Ethic</li>
+                                            <li>Interpersonal Collaboration</li>
+                                            <li>Scheduling Mastery</li>
                                         </ul>
                                     </label>
                                 </div>
@@ -57,19 +58,16 @@ const Resume = () => {
                                     <label className='r-list'>
                                         <ul>
                                             <li>
+                                                <p>MASTER OF DATA SCIENCE [2023 - 2025]</p>
+                                                <p>[La Trobe University]</p>
+                                                <p>•Specialization in Artificial Intelligence analytics<br/>
+                                                •Courses Taken: Artificial Intelligence, Data Mining, Machine Learning, Natural Language Processing.
+                                                </p>
+                                            </li>
+                                            <li>
                                                 <p>BACHELOR OF COMPUTER SCIENCE AND ENGINEERING [2016 - 2020]</p>
-                                                <p>[Velammal Institute of technology]</p>
-                                                <p>I pursued my gradution in computer science and engineering with overall CGPA 8.53</p>
-                                            </li>
-                                            <li>
-                                                <p>HSC (12TH), STATE-BOARD [2015 - 2016]</p>
-                                                <p>[Doveton Matriculation Higher Secondary School]</p>
-                                                <p>I have completed my 12th from State board with overall 88%</p>
-                                            </li>
-                                            <li>
-                                                <p>SSLC (10TH), STATE-BOARD [2013 - 2014]</p>
-                                                <p>[Doveton Matriculation Higher Secondary School]</p>
-                                                <p>I have completed my 10th from State board with overall 93%</p>
+                                                <p>[Anna University, Chennai, India]</p>
+                                                <p>Graduated four-year study with a First-class distinction and developed a working module for the Project work subject in the final semester.</p>
                                             </li>
                                         </ul>
                                     </label>
@@ -83,8 +81,15 @@ const Resume = () => {
                                     <label className='r-list'>
                                         <ul>
                                             <li>
-                                                <p>Associate Software Engineer, Solartis [June 2020 - Present]</p>
-                                                <p>[Solartis Technology Services Pvt Ltd, Chennai]</p>
+                                                <p>Engineer II - Full Stack Developer, Verizon [February 2022 - February 2023]</p>
+                                                <p>[Verizon Global Services, India]</p>
+                                                <p>Developed a web application that processed, analyzed, and visualized data for Associate Recruiting Bolt-On under HCM customs. Enacted SSO security service on the front-end React application for Human Capital Management Custom Bolt-on application. Analyzed and developed API calls for token service and notification service using Java Spring Boot Framework and PostgreSQL.
+                                                </p>
+                                            </li>
+                                            <br/>
+                                            <li>
+                                                <p>Associate Software Engineer, Solartis [June 2020 - February 2022]</p>
+                                                <p>[Solartis Technology Services Pvt Ltd, India]</p>
                                                 <p>Working as a developer in PRODUCT MANAGEMENT TOOLKIT,
                                                     helps to create and maintain various insurance carrier activities which is
                                                     developed using JSF, Drools and MySQL Database.

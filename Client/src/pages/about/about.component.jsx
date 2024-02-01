@@ -29,14 +29,13 @@ const About = () => {
                     <div className='right-conatiner'>
                         <div className='intro'>
                             <h2 className='name'>
-                                It's me, Harini Vanmeeganathan
+                                Salutations, Harini Vanmeeganathan Lakshmi!
                             </h2>
                             <h3 className='work'>
-                                Currently working as a Software Developer @ solartis.pvt.ltd
+                            I am currently pursuing a Master of Science (MS) in Data Science with a specialization in Artificial Intelligence Analytics at La Trobe University. 
                             </h3>
                             <div className='para'>
-                                <label>I am extremely motivated to constantly develop my skills and grow professionally. I am confident
-                                    in my ability to gain an exposure that would help me to build a strong and successful career. To solve problems in a creative and effective manner in a challenging position.
+                                <label>With over three years of hands-on experience as a Full Stack Developer, I've had the privilege to immerse myself in a dynamic IT environment. My journey has led me to work extensively with technologies such as ReactJs, Java, Spring Boot microservices, and PostgreSQL. To solve problems in a creative and effective manner in a challenging position.
                                 </label>
                             </div>
                         </div>
