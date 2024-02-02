@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[867],{867:(a,s,e)=>{e.r(s),e.d(s,{default:()=>l});e(791);var c=e(715),i=e(184);const l=()=>(0,i.jsxs)("div",{className:"footer-container",children:[(0,i.jsx)("label",{className:"copyright",children:"Copyright"}),(0,i.jsx)(c.I_Z,{className:"copyright-icon"}),(0,i.jsx)("label",{className:"copyright",children:"2024 Harini Vanmeeganathan Lakshmi"})]})}}]);
+//# sourceMappingURL=867.81573132.chunk.js.map
