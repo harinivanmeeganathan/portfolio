@@ -17,7 +17,7 @@ const SocialLinks = () => {
         </li>
         <li className='socialLink'>
           <a
-            href="https://www.linkedin.com/in/harini-vanmeeganathan-87323714b/"
+            href="https://www.linkedin.com/in/harinivanmeeganathan/"
             target="_blank"
             rel="noreferrer"
             className='socialIcon'>

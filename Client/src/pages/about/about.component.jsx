@@ -32,10 +32,10 @@ const About = () => {
                                 Salutations, Harini Vanmeeganathan Lakshmi!
                             </h2>
                             <h3 className='work'>
-                            I am currently pursuing a Master of Science (MS) in Data Science with a specialization in Artificial Intelligence Analytics at La Trobe University. 
+                            I am currently pursuing my <b>Master of Data Science</b> with a specialization in <b>Artificial Intelligence Analytics</b> at La Trobe University, Melbourne, Australia. 
                             </h3>
                             <div className='para'>
-                                <label>With over three years of hands-on experience as a Full Stack Developer, I've had the privilege to immerse myself in a dynamic IT environment. My journey has led me to work extensively with technologies such as ReactJs, Java, Spring Boot microservices, and PostgreSQL. To solve problems in a creative and effective manner in a challenging position.
+                                <label>With over three years of hands-on experience as a <b>Full Stack Developer</b>, I've had the privilege to immerse myself in a dynamic IT environment. My journey has led me to work extensively with technologies such as ReactJs, Java, Spring Boot microservices, and PostgreSQL. To solve problems in a creative and effective manner in a challenging position.
                                 </label>
                             </div>
                         </div>

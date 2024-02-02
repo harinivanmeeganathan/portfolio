@@ -7,7 +7,7 @@
 
 .resume-container .resume {
     width : 75% !important;  
-    height: 150vh;
+    height: 180vh;
     border-radius: 10px;
     backdrop-filter: blur(5px);
     box-shadow: 4px 5px 4px 3px #5904a823;
@@ -54,7 +54,7 @@
 .resume-container .resume .l-side{
     float:left;
     width: 35%;
-    height: 150vh;
+    height: 180vh;
     background-color: #5d006b47;
     box-shadow: 4px 5px 20px 11px #23004461;
     @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
@@ -85,6 +85,7 @@
 .resume-container .resume .l-side .l-boxes .lbox{
     float:left;
     margin-left: 10px;
+    margin-top: 10%;
     height: 100%;
     width: 95%;
     @media screen and (max-width: 1024px) {
@@ -103,7 +104,8 @@
 .resume-container .resume .l-side .l-boxes .lbox .head{
     float:left;
     margin-left: 5px;
-    height: 15%;
+    margin-bottom: 8%;
+    height: 10%;
     width: 95%;
     @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
         margin-left: -3%;
@@ -111,6 +113,7 @@
 }
 .resume-container .resume .l-side .l-boxes .lbox .head label{
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
     font-size: 1.25rem;
     font-weight: 800;
     color: #ff00eb;
@@ -146,7 +149,7 @@
 .resume-container .resume .r-side{
     float:right;
     width: 65%;
-    height: 150vh;
+    height: 180vh;
     background-color: #7400ff1a;
     @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
         height: 165vh;
@@ -237,6 +240,7 @@
 }
 .resume-container .resume .r-side .r-boxes .r-box .head1 label{
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
     font-size: larger;
     font-weight: 800;
     color:#6e00ff;

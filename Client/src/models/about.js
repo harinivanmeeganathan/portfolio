@@ -5,11 +5,11 @@ export const Details = [
     },
     {
         title : 'RESIDENCE',
-        value: 'CHENNAI, TAMIL NADU'
+        value: 'MELBOURNE, AUSTRALIA'
     },
     {
         title : 'EDUCATION',
-        value: 'BACHELOR OF COMPUTER SCIENCE AND ENGINEERING'
+        value: 'MASTER OF DATA SCIENCE'
     },
     {
         title : 'MAIL ME',
