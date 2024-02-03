@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "Client/build"
+
+[dev]
+  command = "npm run start"
+  publish = "Client/public"
