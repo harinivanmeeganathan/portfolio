@@ -3,6 +3,7 @@ const app = express();
 const cors = require('cors');
 const sendMail = require('./mail');
 const path = require('path');
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
@@ -18,12 +19,15 @@ app.get('/api', (req, res) => {
     console.log('greet', req.body)
 })
 
-app.get('/api/mail', async (req, res) => {
-    console.log('Mail Sent !!!', req.body)
+app.post('/api/mail', async (req, res) => {
+    try{
+        console.log('Mail Sent !!!', req.body)
+    const {name,email,message} = req.body;
+
     const isSend = await sendMail({
         from: 'harinivanmeeganathan@gmail.com',
         to: 'harinivanmeeganathan@gmail.com',
-        subject: 'Name',
+        subject: 'name',
         text: 'message'
 
     })
@@ -33,14 +37,22 @@ app.get('/api/mail', async (req, res) => {
         res.status(200).json({
             status: 'Success',
             message: 'Mail Sent !!!'
-        })
+        });
     } else {
         res.status(400).json({
             status: 'Failed',
             message: 'Unable to Send Mail !'
-        })
+        });
     }
-})
+    }catch (error) {
+        console.error('Error sending an email:', error);
+        res.status(500).json({
+            status: 'Error',
+            message: 'Internal Server Error',
+        });
+    }
+    
+});
 
 app.use(express.static('Client/build'));
 if (process.env.NODE_ENV === 'production') {

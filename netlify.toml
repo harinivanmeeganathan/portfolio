@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run server"
   publish = "Client/build"
 
 [dev]

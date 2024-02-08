@@ -12,7 +12,15 @@ function Formpage() {
     }
     const submitEmail = async (e) => {
         e.preventDefault();
-        axios.get('/api/mail', { ...value }).then(res => console.log(res));
+        try{
+            const response = await axios.post('/api/mail',{...value});
+            console.log(response.data);
+            } catch(error) {
+                console.error('Error sending an email: ',error);
+            }
+
+        
+        // axios.get('/api/mail', { ...value }).then(res => console.log(res));
     }
     // function sendEmail(e) {
     //   e.preventDefault();
@@ -25,8 +33,10 @@ function Formpage() {
     //         console.log(error.text);
    
     //     });
+
     //     e.target.reset();
     // }
+    
 return(
 <div className = 'form'>
 
