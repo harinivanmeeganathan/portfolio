@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 import axios from 'axios';
 import './form.styles.scss';
 

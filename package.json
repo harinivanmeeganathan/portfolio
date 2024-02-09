@@ -10,6 +10,7 @@
     "build-server": "npm run build",
     "server": "nodemon index.js --ignore Client",
     "client": "npm start --prefix Client",
+    "eject": "react-scripts eject",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "eslintConfig": {
