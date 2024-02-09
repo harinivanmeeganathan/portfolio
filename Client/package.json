@@ -5,7 +5,7 @@
   "proxy": "http://localhost:5000/",
   "homepage": "https://harinivanmeeganathan.github.io/",
   "engines": {
-    "node": "14.x"
+    "node": ">=14.17.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
@@ -25,7 +25,7 @@
     "react-icons": "^5.0.1",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^6.21.3",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-smooth-scrolling": "^1.0.2",
     "react-tilt": "^1.0.2",
     "react-tsparticles": "^2.10.1",
@@ -36,7 +36,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "react-scripts start --openssl-legacy-provider",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
